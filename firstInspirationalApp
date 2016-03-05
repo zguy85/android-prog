@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zguy85.myfirstinspirationapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/partyimg"
+        android:src="@drawable/imagejpeg952"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I will fear nothing..."
+        android:id="@+id/no_fear"
+        android:textSize="28dp"
+        android:padding="15dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Psalm 23:4"
+        android:id="@+id/scripture"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...for You are with me."
+        android:id="@+id/you_are_with_me"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/scripture"
+        android:textSize="28dp"
+        android:padding="15dp"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
